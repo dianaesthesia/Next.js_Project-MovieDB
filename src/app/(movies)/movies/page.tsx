@@ -1,7 +1,7 @@
 import React from 'react';
 
 import MoviesListComponent from "@/app/components/movies-container/movies-list/MoviesListComponent";
-import styles from './page.module.css';
+// import styles from './page.module.css';
 
 interface IProps {
     searchParams?: Promise<{
@@ -16,7 +16,7 @@ const MoviesListPage = async (props: IProps) => {
     const query = searchParams?.query
 
     return (
-        <div className={styles.MoviesListComponent}>
+        <div>
             <MoviesListComponent currentPage={currentPage} query={query}/>
         </div>
     );

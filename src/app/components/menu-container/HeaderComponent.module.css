@@ -5,6 +5,7 @@
     justify-content: space-between;
     align-items: center;
 }
+
 .menu a {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
@@ -13,10 +14,12 @@
     color: #bdc3c7;
     transition: 0.7s;
 }
+
 .menu a:hover {
     color: #ffffff;
     transition: 0.4s;
 }
+
 .menu_navigation {
     width: 70%;
     height: 60%;
@@ -25,4 +28,19 @@
     align-items: center;
     background: #02192c;
     border-radius: 50px;
+}
+
+.icon_user {
+    width: 100px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon_user p {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #bdc3c7;
 }

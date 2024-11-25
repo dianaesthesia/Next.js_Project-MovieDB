@@ -1,8 +1,7 @@
 import React, {FC} from 'react';
 
 import {IGenreModel} from "@/app/models/IGenreModel";
-
-// import styles from './GenreComponent.module.css';
+import styles from './GenreComponent.module.css';
 
 interface IProps {
     genre: IGenreModel
@@ -10,8 +9,10 @@ interface IProps {
 
 const GenreComponent: FC<IProps> = ({genre: {name}}) => {
     return (
-        <div>
-            <p>{name}</p>
+        <div className={styles.genre_button}>
+            <div className={styles.genre_button_text}>
+                <p>{name}</p>
+            </div>
         </div>
     );
 };

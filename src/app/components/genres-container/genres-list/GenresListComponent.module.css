@@ -1,0 +1,30 @@
+.genres_list {
+    width: 70%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+.genre {
+    width: 120px;
+    height: 50px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #032743;
+    transition: 0.7s;
+}
+
+.genre:hover {
+    background: #739abc;
+    transition: 0.4s;
+}
+
+.genre a {
+    text-decoration: none;
+}

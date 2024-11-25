@@ -1,11 +1,11 @@
-.Movies_with_pagination{
+.Movies_with_pagination_genre{
     width: 100vw;
     height: 100%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-.Movies {
+.Movies_genre {
     width: 70%;
     height: 100%;
     display: flex;
@@ -15,19 +15,19 @@
     flex-wrap: wrap;
     padding-top: 50px;
 }
-.MovieCard {
+.MovieCard_genre {
     width: 200px;
     height: 400px;
     display: flex;
     justify-content: center;
 }
-.MovieCard a {
+.MovieCard_genre a {
     text-decoration: none;
 }
-.MovieCard img {
+.MovieCard_genre img {
     border-radius: 30px;
 }
-.MovieCard h5 {
+.MovieCard_genre h5 {
     margin: 0;
 }
 .Pagination {

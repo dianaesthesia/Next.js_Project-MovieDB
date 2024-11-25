@@ -1,14 +1,22 @@
-.Title{
-    margin: 10px 0;
+.MovieCardGeneral {
+    width: 200px;
+    height: 100%;
+}
+
+.Title {
+    margin: 10px 0 10px 5px;
+    /*height: 4.1vh;*/
     font-family: 'Roboto', sans-serif;
     font-size: 2vh;
     color: #02192c;
 }
+
 .Release_date_and_rating {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
+
 .RatingStar {
     padding-left: 1%;
     width: 22%;
@@ -16,6 +24,7 @@
     justify-content: flex-start;
     align-items: center;
 }
+
 .RatingStar p {
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -23,19 +32,22 @@
     font-weight: lighter;
     color: #02192c;
 }
-.Release_date {
-    width: 67%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-.Release_date p {
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.6vh;
-    font-weight: lighter;
-    color: #02192c;
-}
-.Release_date_line {
-    padding-right: 3%;
-}
+
+/*.Release_date {*/
+/*    width: 67%;*/
+/*    display: flex;*/
+/*    justify-content: flex-start;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.Release_date_line {*/
+/*    padding-right: 3%;*/
+/*}*/
+
+/*.Release_date p {*/
+/*    margin: 0;*/
+/*    font-family: 'Roboto', sans-serif;*/
+/*    font-size: 1.6vh;*/
+/*    font-weight: lighter;*/
+/*    color: #02192c;*/
+/*}*/
