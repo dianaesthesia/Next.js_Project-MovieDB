@@ -1,0 +1,39 @@
+.Movies_with_pagination{
+    width: 100vw;
+    height: 200vh;
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+    /*flex-direction: column;*/
+}
+.Movies {
+    width: 100%;
+    height: 28%;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+.MovieCard {
+    width: 18%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.MovieCard a {
+    text-decoration: none;
+}
+.MovieCard img {
+    border-radius: 30px;
+}
+.MovieCard h5 {
+    margin: 0;
+}
+.Pagination {
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 1350px;
+}

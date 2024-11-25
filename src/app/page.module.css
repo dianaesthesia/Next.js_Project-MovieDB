@@ -1,0 +1,15 @@
+.welcome {
+    width: 100vw;
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcome h1 {
+    margin: 0;
+    padding-bottom: 40vh;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 52px;
+    color: #324c67;
+}

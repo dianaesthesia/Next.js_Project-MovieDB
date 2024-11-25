@@ -1,7 +1,8 @@
 import type {Metadata} from "next";
 import React from "react";
 
-import "./globals.css";
+import HeaderComponent from "@/app/components/menu-container/HeaderComponent";
+import styles from './layout.module.css';
 
 export const metadata: Metadata = {
     title: "Create Next App",
@@ -12,8 +13,13 @@ type Props = Readonly<{ children: React.ReactNode; }>;
 export default function RootLayout({children}: Props) {
     return (
         <html lang="en">
-        <body>
-        {children}
+        <body className={styles.body}>
+        <header className={styles.header}>
+            <HeaderComponent/>
+        </header>
+        <main className={styles.main}>
+            {children}
+        </main>
         </body>
         </html>
     );

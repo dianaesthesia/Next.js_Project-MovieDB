@@ -1,0 +1,28 @@
+.menu {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vh;
+    font-weight: lighter;
+    color: #bdc3c7;
+    transition: 0.7s;
+}
+.menu a:hover {
+    color: #ffffff;
+    transition: 0.4s;
+}
+.menu_navigation {
+    width: 70%;
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #02192c;
+    border-radius: 50px;
+}
