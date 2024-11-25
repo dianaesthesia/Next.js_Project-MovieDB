@@ -15,13 +15,14 @@ const HeaderComponent: FC = () => {
                 <Link href={'/movies'}>All Movies</Link>
                 <Link href={'/genres'}>Genres</Link>
                 <div className={styles.icon_user}>
-                    <img src={'https://img.icons8.com/?size=100&id=81019&format=png&color=000000'} alt={'user_alien'} width={45} height={45}/>
+                    <img src={'https://img.icons8.com/?size=100&id=81019&format=png&color=000000'} alt={'user_alien'}
+                         width={45} height={45}/>
                     <p>MyName</p>
                 </div>
             </div>
 
         </div>
-);
+    );
 };
 
 export default HeaderComponent;

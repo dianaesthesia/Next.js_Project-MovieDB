@@ -1,0 +1,7 @@
+.Badges {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}

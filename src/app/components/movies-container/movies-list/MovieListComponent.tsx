@@ -3,12 +3,13 @@ import React, {FC} from 'react';
 import {IMovieListModel} from "@/app/models/IMovieListModel";
 import {imageBaseUrl} from "@/app/constants/urls";
 import styles from './MovieListComponent.module.css'
+import BadgesComponent from "@/app/components/badge-component/BadgesComponent";
 
 interface IProps {
     movie: IMovieListModel
 }
 
-const MovieListComponent: FC<IProps> = ({movie: {original_title, poster_path, vote_average}}) => {
+const MovieListComponent: FC<IProps> = async ({movie: {id, original_title, poster_path, vote_average}}) => {
     return (
         <div className={styles.MovieCardGeneral}>
             <img src={imageBaseUrl + poster_path} alt={original_title} width={200} height={300}/>
@@ -19,10 +20,7 @@ const MovieListComponent: FC<IProps> = ({movie: {original_title, poster_path, vo
                          alt={'rating-star'} width={20} height={20}/>
                     <p>{vote_average} </p>
                 </div>
-                {/*<div className={styles.Release_date}>*/}
-                {/*    <p className={styles.Release_date_line}>|</p>*/}
-                {/*    <p>{release_date}</p>*/}
-                {/*</div>*/}
+                <BadgesComponent id={id}/>
             </div>
 
         </div>
